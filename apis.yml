@@ -1,7 +1,29 @@
 aid: go-deed
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/go-deed.png
 name: Go Deed
-description: Go Deed is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Go Deed (legally Deed Inc.) is a workplace-giving and corporate social
+  responsibility platform founded in 2016 that helps enterprises engage
+  employees around volunteering, charitable giving, donation matching, and
+  everyday social-impact actions. With teams in New York, San Francisco, and
+  Berlin, Deed served Fortune 500 and mid-market employers before being acquired
+  into Bonterra, where it now ships as the "Deed" employee-engagement product.
+  The joindeed.com domain 301-redirects to bonterratech.com/product/deed. Deed
+  was surfaced as an Earlybird Venture Capital portfolio company (investment
+  2021) and added to the API Evangelist network as a lead. Enrichment found no
+  independent public developer portal, API reference, or machine-readable API
+  specification for the standalone Go Deed / Deed brand.
 url: https://raw.githubusercontent.com/api-evangelist/go-deed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,39 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: bonterra
+x-is-api-provider: false
+x-enrichment-note: >-
+  2026-07-19 enrichment pass — identified Go Deed as Deed Inc. (workplace giving
+  / CSR), now part of Bonterra; joindeed.com redirects to
+  bonterratech.com/product/deed. No public API/developer surface found (no docs,
+  no OpenAPI, no /.well-known, no developers/help subdomains). No API artifacts
+  produced. Identity-only hygiene update.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Workplace Giving
+- Corporate Social Responsibility
+- Employee Engagement
+- Volunteering
+- Charitable Giving
+- Nonprofit
+- Social Impact
+x-vc-profile: https://earlybird.com/companies/go-deed-inc
+common:
+- type: Website
+  url: https://www.joindeed.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
