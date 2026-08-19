@@ -40,7 +40,7 @@ x-enrichment-note: >-
   bonterratech.com/product/deed. No public API/developer surface found (no docs,
   no OpenAPI, no /.well-known, no developers/help subdomains). No API artifacts
   produced. Identity-only hygiene update.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
