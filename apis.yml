@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.joindeed.com', status: 301, note: 'declared website redirects to https://www.bonterratech.com/product/deed?utm_source=joindeed&utm_medium=redirect — a different registrable domain (joindeed.com -> bonterratech.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/go-deed.png
 name: Go Deed
 description: >-
